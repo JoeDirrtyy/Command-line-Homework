@@ -1,1 +1,523 @@
 This is my Homework Makalya
+
+
+
+
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ mkdir Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd Homefolder
+bash: cd: Homefolder: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'
+ Contacts/
+ Cookies@
+ DevProjects/
+ Documents/
+ Downloads/
+ Favorites/
+ Homeworkfolder/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.M.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.MContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.MContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ demofolder/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ pwd
+/c/Users/harvi/Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ file Bash.txt
+Bash.txt: cannot open `Bash.txt' (No such file or irectory)
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ file JoesHomework.txt
+JoesHomework.txt: cannot open `JoesHomework.txt' (o such file or directory)
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ touch file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ ls
+file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ vi JoesHomework.txt
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ touch file2
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ ls
+JoesHomework.txt  file1  file2
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cat
+
+
+
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cat JoesHomework.txt file1
+This is my Homework Makalya
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cat JoesHomework.txt
+This is my Homework Makalya
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ vi file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cat JoesHomework.txt file1
+This is my Homework Makalya
+This is just file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ less JoesHomework.txt
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ history
+    1  git --version
+    2  pwd
+    3  cd D
+    4  Cd Desktop
+    5  ls
+    6  cd Desktop
+    7  ls
+    8  cd Documents
+    9  pwd
+   10  ls
+   11  git --version
+   12  git --version
+   13  download speed
+   14  get download speed
+   15  mkdir Homeworkfolder
+   16  cd
+   17  cd Homefolder
+   18  ls
+   19  cd Homeworkfolder
+   20  pwd
+   21  file Bash.txt
+   22  file JoesHomework.txt
+   23  touch file1
+   24  ls
+   25  vi JoesHomework.txt
+   26  touch file2
+   27  ls
+   28  cat
+   29  cat JoesHomework.txt file1
+   30  cat JoesHomework.txt
+   31  vi file1
+   32  cat JoesHomework.txt file1
+   33  less JoesHomework.txt
+   34  history
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cp JoesHomework.txt C:\Users\harvi\Documents
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cp JoesHomework.txt \C:\Users\harvi\Documents
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cp JoesHomework.txt /C:\Users\harvi\Documents
+cp: cannot create regular file '/C:UsersharviDocumnts': Permission denied
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ pwd
+/c/Users/harvi/Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cd
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mkdir Anotherfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cp JoesHomework.txt /Anotherfolder
+cp: cannot create regular file '/Anotherfolder': Prmission denied
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cp JoesHomework.txt /Anotherfolder (permission dnied?)
+bash: syntax error near unexpected token `('
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$  mv file1 newfile1
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file2 C:\Users\harvi\Documents
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 C:\Users\harvi\demofolder
+mv: target 'C:Usersharvidemofolder' is not a direcory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 \Users\harvi\demofolder
+mv: target 'Usersharvidemofolder' is not a directoy
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 /C:\Users\harvi\demofolder
+mv: target '/C:Usersharvidemofolder' is not a diretory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 \C:\Users\harvi\demofolder
+mv: target 'C:Usersharvidemofolder' is not a direcory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 C:\Users\harvi\Homeworkfolder
+mv: target 'C:UsersharviHomeworkfolder' is not a drectory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 \Homeworkfolder
+mv: target 'Homeworkfolder' is not a directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 /Homeworkfolder
+mv: target '/Homeworkfolder' is not a directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 Homeworkfolder
+mv: target 'Homeworkfolder' is not a directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv file_1 file_2 C:\Users\harvi\Homeworkfolder
+mv: target 'C:UsersharviHomeworkfolder' is not a drectory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ mv newfile1 C:\Users\harvi\Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~/Homeworkfolder
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd c/Users
+bash: cd: c/Users: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd c
+bash: cd: c: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 ~
+$ cd /c
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c
+$ ls
+'$Recycle.Bin'/
+'$WinREAgent'/
+'Documents and Settings'@
+ DumpStack.log.tmp
+ Intel/
+ OneDriveTemp/
+ PerfLogs/
+'Program Files'/
+'Program Files (x86)'/
+ ProgramData/
+ RM/
+ Recovery/
+'System Volume Information'/
+ System.sav@
+ Users/
+ Windows/
+ XboxGames/
+ hiberfil.sys
+ hp/
+ hpswsetup/
+ pagefile.sys
+ swapfile.sys
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c
+$ cd /users
+bash: cd: /users: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c
+$ cd /Users
+bash: cd: /Users: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c
+$ cd Users
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users
+$ cd Harvi
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ DevProjects/
+ Documents/
+ Downloads/
+ Favorites/
+ Homeworkfolder/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ demofolder/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ cd Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ ls
+Anotherfolder/         C:UsersharviHomeworkfolder
+C:UsersharviDocuments  JoesHomework.txt
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ mv
+mv: missing file operand
+Try 'mv --help' for more information.
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ mv Anotherfolder /c/Users/Harvi/demofolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ touch file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ rm file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ touch file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ rm -f file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ touch file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ rm -i file1
+rm: remove regular empty file 'file1'?
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ rm -r file1
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ mkdir randomfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ rmdir randomfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ git clone https://github.com/JoeDirrtyy/Command-line-Homework.git
+Cloning into 'Command-line-Homework'...
+warning: You appear to have cloned an empty repository.
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ ls
+C:UsersharviDocuments
+C:UsersharviHomeworkfolder
+Command-line-Homework/
+JoesHomework.txt
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ cd Command-line-Homework/
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        JoesHomework.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ git add .
+warning: in the working copy of 'JoesHomework.txt', LF will be replaced by CRLF the next time Git touches it
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ git commit -m "i learned how to push"
+[main (root-commit) ec25721] i learned how to push
+ 1 file changed, 1 insertion(+)
+ create mode 100644 JoesHomework.txt
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ git amend
+git: 'amend' is not a git command. See 'git --help'.
+
+The most similar command is
+        imap-send
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 260 bytes | 130.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JoeDirrtyy/Command-line-Homework.git
+ * [new branch]      main -> main
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ cd /harvi
+bash: cd: /harvi: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder/Command-line-Homework (main)
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi/Homeworkfolder
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ find -type d -Homeworkfolder
+find: unknown predicate `-Homeworkfolder'
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ find -type d -name Homeworkfolder
+./Homeworkfolder
+
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ find /Harvi -type d -name Homeworkfolder
+find: ‘/Harvi’: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ find /Harvi -type d -name Homeworkfolder
+find: ‘/Harvi’: No such file or directory
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ find /c/Users/Harvi -type d -name Homeworkfolder
+
+/c/Users/Harvi/Homeworkfolder
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+
+    Options:
+      -n        do not append a newline
+      -e        enable interpretation of the following backslash escapes
+      -E        explicitly suppress interpretation of backslash escapes
+
+    `echo' interprets the following backslash-escaped characters:
+      \a        alert (bell)
+      \b        backspace
+      \c        suppress further output
+      \e        escape character
+      \E        escape character
+      \f        form feed
+      \n        new line
+      \r        carriage return
+      \t        horizontal tab
+      \v        vertical tab
+      \\        backslash
+      \0nnn     the character whose ASCII code is NNN (octal).  NNN can be
+                0 to 3 octal digits
+      \xHH      the eight-bit character whose value is HH (hexadecimal).  HH
+                can be one or two hex digits
+      \uHHHH    the Unicode character whose value is the hexadecimal value HHHH.
+                HHHH can be one to four hex digits.
+      \UHHHHHHHH the Unicode character whose value is the hexadecimal value
+                HHHHHHHH. HHHHHHHH can be one to eight hex digits.
+
+    Exit Status:
+    Returns success unless a write error occurs.
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ echo --help
+--help
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ man ls
+bash: man: command not found
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ whatis cat
+bash: whatis: command not found
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users/Harvi
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c/Users
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /c
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /
+$ whatis cat
+bash: whatis: command not found
+
+harvi@LAPTOP-BI16F2AC MINGW64 /
+$ cd ..
+
+harvi@LAPTOP-BI16F2AC MINGW64 /
+$ whatis cd
+bash: whatis: command not found
+
+harvi@LAPTOP-BI16F2AC MINGW64 /
+$
